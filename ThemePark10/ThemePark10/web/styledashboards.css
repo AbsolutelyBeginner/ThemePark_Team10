@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #757575;
+}
+
+header {
+    background-color: #9700dd;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.tab {
+    background-color: #d1d1d1;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.tab button {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+}
+
+.tab button.active {
+    background-color: #a2a2a2;
+    color: white;
+}
+
+.tab button:hover {
+    background-color: #a2a2a2;
+    color: white;
+    transition: 0.5s;
+    transform:scale(1.1);
+}
+
+.tabcontent {
+    display: none;
+    padding: 30px;
+}
+
+.view {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 6px 6px 6px 6px;
+    border-radius: 40px;
+}
+
+.view:hover {
+    cursor: pointer;
+    background-color: rgb(195, 255, 0);
+    color: rgb(28, 27, 27);
+    transition: 0.5s;
+    transform:scale(1.2);
+}
+.logout
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size:16px;
+    border-radius: 100px;
+
+}
+.logout:hover
+{
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+    transform:scale(1.1);
+}

@@ -1,0 +1,168 @@
+*
+{
+  position:relative;
+
+}
+body
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #757575;
+}
+h1
+{
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(25, 0, 255);
+  border-radius:1000px;
+  color:white;
+  background-color: black;
+}
+h2
+{
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(25, 0, 255);
+  border-radius:1000px;
+  color:white;
+  background-color: black;
+}
+table
+{
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td
+{
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-content: center;
+}
+
+th
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even)
+{
+  background-color: #eeeeee;
+}
+tr:nth-child(odd)
+{
+  background-color:#b8b894;
+}
+
+tr:hover
+{
+  background-color: #00c2fd;
+}
+td:hover
+{
+  background-color: #f5ff6c;
+}
+.insertFields
+{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+.insertArea
+{
+    margin: auto;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px 10px 10px 20px;
+}
+
+.DashView
+{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    padding: 8px 8px 8px 8px;
+}
+.DashView:hover
+{
+    cursor: pointer;
+    background-color:rgb(195, 255, 0);
+    color:rgb(28, 27, 27);
+    transition: 0.5s;
+}
+.rideView
+{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    background-color: black;
+    padding: 8px 8px 8px 8px;
+}
+.rideView:hover
+{
+    cursor: pointer;
+    background-color:rgb(195, 255, 0);
+    color:rgb(28, 27, 27);
+    transition: 0.5s;
+}
+.SubmitView
+{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: teal;
+    padding: 10px 10px 10px 10px;
+}
+.SubmitView:hover
+{
+    cursor: pointer;  
+    background-color:rgb(195, 255, 0);
+    color:rgb(28, 27, 27);
+    transition: 0.5s;
+}
+.insertTicket
+{
+    margin: auto;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+.customerTable
+{
+  width: 50%;
+  margin: auto;
+}
+.customerSummary
+{
+/*  width: 50%;*/
+  margin: auto;
+  background-color:#c1f0c1;
+  font-weight: bold;
+}
+.purchaseTicket
+{
+    margin: auto;
+    background-color: navy;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+.ticketError
+{
+    margin: auto;
+    color:yellow;
+    font-weight: bold;
+    font-size: 25px;
+}
+
