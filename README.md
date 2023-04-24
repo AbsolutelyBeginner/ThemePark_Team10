@@ -1,5 +1,6 @@
- # **Theme Park Management System Front End** ( reminder that this is mostly frontend )
+ # **Theme Park Management System** ( completed, fixed )
  ## **Team 10** Project <br>
+ *Codes are transferred from a now-abandoned repository due to it messy front end. <br> This is the completed, with back end and front end web application* <br>
  **Class**: COSC 3380, University of Houston. <br>
  **Date**: Spring 2023.<br>
 **Members**: Huy, Ariya, Stanley, Joel, Tamilore. <br>
